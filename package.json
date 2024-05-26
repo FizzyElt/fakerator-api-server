@@ -1,0 +1,22 @@
+{
+  "name": "fakerator-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node index.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "h3": "^1.11.1",
+    "struct-fakerator": "^1.2.5"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.7.3"
+  }
+}
