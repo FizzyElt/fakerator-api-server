@@ -6,13 +6,16 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node index.mjs"
+    "dev": "node effect.mjs"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@effect/platform": "^0.55.1",
+    "@effect/platform-node": "^0.51.1",
     "@faker-js/faker": "^8.4.1",
+    "effect": "^3.2.5",
     "h3": "^1.11.1",
     "struct-fakerator": "^1.2.5"
   },
